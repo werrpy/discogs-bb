@@ -36,7 +36,7 @@ args = parser.parse_args()
 release = d.release(args.discogs)
 
 # comma seperated artists
-artists = ','.join(str(artist.name) for artist in release.artists)
+artists = ', '.join(str(artist.name) for artist in release.artists)
 
 # artists - title
 title = artists + ' - ' + release.title
