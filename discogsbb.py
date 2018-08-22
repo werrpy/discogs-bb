@@ -52,7 +52,7 @@ title = artists + ' - ' + release.title
 print('Title: ' + title)
 
 # comma seperated genres
-tags = ','.join(release.genres)
+tags = ', '.join(release.genres)
 print('Tags: ' + tags)
 
 # BBCode formatter
