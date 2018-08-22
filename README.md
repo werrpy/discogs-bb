@@ -1,6 +1,11 @@
 # discogs-bb
 Discogs BBCode formatter
 
+Requirements
+```
+pip3 install discogs_client
+```
+
 Usage
 ```
 python3 discogsbb.py discogsid
