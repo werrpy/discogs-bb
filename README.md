@@ -1,6 +1,11 @@
 # discogs-bb
 Discogs BBCode formatter
 
+Requirements
+```
+pip3 install discogs_client
+```
+
 Usage
 ```
 python3 discogsbb.py discogsid
@@ -19,3 +24,5 @@ Tracklist:
 [list=1][*]Rydym[/*][*]Pillock[/*][/list]
 Discogs: [url=https://www.discogs.com/release/105]https://www.discogs.com/release/105[/url]
 ```
+
+Generate a personal access token at https://www.discogs.com/settings/developers. Replace `user_token` and set a unique `user_agent` here: https://github.com/werrpy/discogs-bb/blob/master/discogsbb.py#L23-L29
