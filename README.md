@@ -26,4 +26,4 @@ Tracklist:
 Discogs: [url=https://www.discogs.com/release/105]https://www.discogs.com/release/105[/url]
 ```
 
-Generate a personal access token at https://www.discogs.com/settings/developers. Replace `user_token` and set a unique `user_agent` here: https://github.com/werrpy/discogs-bb/blob/master/discogsbb.py#L23-L29
+Generate a personal access token at https://www.discogs.com/settings/developers. Replace `user_token` and set a unique `user_agent` here: https://github.com/werrpy/discogs-bb/blob/master/discogsbb.py#L28-L34
