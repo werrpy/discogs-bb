@@ -8,7 +8,7 @@ python3 discogsbb.py discogsid
 
 Sample Output
 ```
-> python discogsbb.py 105
+> python3 discogsbb.py 105
 Title: Pure Science, Mashupheadz - Tech House Phenomena 2
 Tags: Electronic
 Images:
