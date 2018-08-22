@@ -9,7 +9,11 @@ class BBCode:
   def tracklist(list):
     bbcode = '[list=1]'
     for track in list:
-      bbcode += '[*]' + track.title + ' ' + track.duration + '[/*]'
+      if track.title:
+        bbcode += '[*]' + track.title
+        if track.duration:
+          bbcode += ' ' + track.duration
+        bbcode += '[/*]'
     bbcode += '[/list]'
     return bbcode
     
