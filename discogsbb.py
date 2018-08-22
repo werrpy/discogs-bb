@@ -3,10 +3,10 @@ import requests
 import argparse
 
 class BBCode:
-  def image(url):
+  def image(self, url):
     return '[center][img]' + str(url) + '[/img][/center]'
 
-  def tracklist(list):
+  def tracklist(self, list):
     bbcode = '[list=1]'
     for track in list:
       if not track.position or not track.title or not track.duration:
@@ -21,10 +21,10 @@ class BBCode:
       bbcode += '[/*]'
     bbcode += '[/list]'
     return bbcode
-    
-  def link(url):
+
+  def link(self, url):
     return '[url=' + str(url) + ']' + str(url) + '[/url]'
-  
+
 # Discogs personal access token
 # https://www.discogs.com/settings/developers
 user_token = 'NFHgaaPhqdTByXxfjSEWpIBtXAGgnRcNnhnoMzqh'
@@ -55,15 +55,18 @@ print('Title: ' + title)
 tags = ','.join(release.genres)
 print('Tags: ' + tags)
 
+# BBCode formatter
+bb = BBCode()
+
 # images
 print('Images: ')
 if release.images is not None:
   for img in release.images:
-    print(BBCode.image(img['uri']))
+    print(bb.image(img['uri']))
 
 # tracklist
 print('Tracklist:')
-print(BBCode.tracklist(release.tracklist))
+print(bb.tracklist(release.tracklist))
 
 # Discogs url
-print('Discogs: ' + BBCode.link('https://www.discogs.com/release/' + str(args.discogs)))
+print('Discogs: ' + bb.link('https://www.discogs.com/release/' + str(args.discogs)))

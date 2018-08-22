@@ -1,19 +1,20 @@
 # discogs-bb
 Discogs BBCode formatter
 
-Requirements
+Requirements  
+Python 2 or 3
 ```
-pip3 install discogs_client
+pip install discogs_client
 ```
 
 Usage
 ```
-python3 discogsbb.py discogsid
+python discogsbb.py discogsid
 ```
 
 Sample Output
 ```
-> python3 discogsbb.py 105
+> python discogsbb.py 105
 Title: Pure Science, Mashupheadz - Tech House Phenomena 2
 Tags: Electronic
 Images:
