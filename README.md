@@ -16,6 +16,6 @@ Images:
 [center][img]https://img.discogs.com/cXVBYJQUe5FuTO5Fj93MucBOQT8=/fit-in/292x292/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-105-1100127334.jpg.jpg[/img][/center]
 [center][img]https://img.discogs.com/h6QAfCwmBCXBTyj1L9oUC4A3eXI=/fit-in/292x292/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-105-1100127340.jpg.jpg[/img][/center]
 Tracklist:
-[list=1][*]Rydym [/*][*]Pillock [/*][/list]
+[list=1][*]Rydym[/*][*]Pillock[/*][/list]
 Discogs: [url=https://www.discogs.com/release/105]https://www.discogs.com/release/105[/url]
 ```
